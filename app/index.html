@@ -2,9 +2,69 @@
 <html>
 <head>
   <meta charset="utf8">
-  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 1 - Module Testing</title>
+
+  <link rel="stylesheet" href="/Users/Vermillion/test-bed/project1/repo/app/css/application.css" />
+  <link rel="stylesheet" href="/Users/Vermillion/test-bed/project1/repo/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/Users/Vermillion/test-bed/project1/repo/bower_components/fontawesome/css/font-awesome.css" />
+  <link rel='stylesheet' href="/Users/Vermillion/test-bed/project1/repo/bower_components/fullcalendar/dist/fullcalendar.css"/>
+  <link rel='stylesheet' href="/Users/Vermillion/test-bed/project1/repo/bower_components/jquery-mobile/css/themes/default/jquery.mobile.css"/>
+
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/jquery/dist/jquery.js" /></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/bootstrap/dist/js/bootstrap.js" /></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/angular/angular.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/angular-route/angular-route.min.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/angular-google-maps/dist/angular-google-maps.min.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/lodash/dist/lodash.underscore.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/bootstrap/js/carousel.js" /></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://github.com/stevenwanderski/bxslider-4/blob/master/src/js/jquery.bxslider.js"></script>
+  <!-- <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/bxslider-4/dist/jquery.bxslider.min.js"></script> -->
+  <!-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=API_KEY"></script> -->
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/moment/moment.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/fullcalendar/dist/fullcalendar.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/fullcalendar/dist/gcal.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/ui-comments/src/comments.js"></script>
+  <script src="/Users/Vermillion/test-bed/project1/repo/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <h1  class="header ui-draggable">something</h1>
+      <i class="fa fa-star-o fa-5x"></i>
 
+      <div id="draggable" class="well ui-droppable">
+
+      </div>
+    </div>
+
+    <div class="row">
+      <ul class="bxslider">
+        <li>Slide 1</li>
+        <li>Slide 2</li>
+        <li>Slide 3</li>
+        <li>Slide 4</li>
+        <li>Slide 5</li>
+      </ul>
+    </div>
+
+  </div>
+  <script>
+// $( "#draggable" ).draggable();
+// $( "#droppable" ).droppable({
+//   drop: function() {
+//     alert( "dropped" );
+//   }
+// });
+// Start bxslider
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </body>
 </html>
